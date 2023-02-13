@@ -2,7 +2,7 @@ from django.urls import path
 
 from .views import HomePageView, AboutUsView
 
-app_name = 'app_djangojokes'
+app_name = 'app_pages'
 
 urlpatterns = [
     path('', HomePageView.as_view(), name = 'homepage'),

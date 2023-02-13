@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AppDjangojokesConfig(AppConfig):
+class AppPagesConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'app_djangojokes'
+    name = 'app_pages'
